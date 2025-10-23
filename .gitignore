@@ -1,0 +1,87 @@
+# ============================================
+# BUILD & COMPILATION FILES
+# ============================================
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# ============================================
+# LOGS & REPORTS
+# ============================================
+*.log
+logs/
+surefire-reports/
+test-output/
+allure-results/
+allure-report/
+
+# ============================================
+# TEMPORARY / SYSTEM FILES
+# ============================================
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db
+
+# ============================================
+# SCREENSHOTS & OUTPUTS
+# ============================================
+screenshots/
+
+# ============================================
+# IDE SPECIFIC
+# ============================================
+# IntelliJ IDEA
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ============================================
+# MAVEN WRAPPER
+# ============================================
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ============================================
+# OTHER TOOLS
+# ============================================
+.kotlin
+
+# ============================================
+# CREDENTIALS (NEVER UPLOAD)
+# ============================================
+*credentials*
+*password*
+*secrets*
